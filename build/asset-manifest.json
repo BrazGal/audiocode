@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/audiocodes_project/static/css/main.d8a39259.css",
+    "main.js": "/audiocodes_project/static/js/main.864e6c8a.js",
+    "index.html": "/audiocodes_project/index.html",
+    "main.d8a39259.css.map": "/audiocodes_project/static/css/main.d8a39259.css.map",
+    "main.864e6c8a.js.map": "/audiocodes_project/static/js/main.864e6c8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8a39259.css",
+    "static/js/main.864e6c8a.js"
+  ]
+}

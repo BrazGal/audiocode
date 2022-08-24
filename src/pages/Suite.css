@@ -1,0 +1,206 @@
+.SuiteTitle{
+    color: black;
+    position: relative;
+    left: 85px;
+    top: 15px;
+    text-decoration: underline 5px #6B354D;
+  } 
+  .AddButton{
+    position: absolute;
+    right: 165px;
+    top:19.5px;
+    font-size:25px;
+    color: #6B354D;
+  
+  }
+  .CancelButton{
+    position: absolute;
+    right: 140px;
+    top:19.5px;
+    font-size:25px;
+    color: #6B354D;
+  
+  }
+
+  .CutButton{
+    position: absolute;
+    right: 200px;
+    top:19.5px;
+    font-size:25px;
+    color: #6B354D;
+  
+  }
+  .Fname{
+    position: relative;
+    left: 115px;
+    top: -15px;
+    width: 83%;
+    border-radius: 20px ;
+    height: 30px;
+    Text-align: left;
+    
+  }
+  .Description{
+    position: relative;
+    left: 115px;
+    top: -5px;
+    width: 83%;
+    border-radius: 20px ;
+    height: 30px;
+    Text-align: left;
+  }
+  ::placeholder{
+    color: black;
+  }
+
+  table{
+    width:85%;
+  }
+  th{
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    
+  }
+  td{
+    text-align: left;
+    vertical-align:left;
+    font-weight: 300;
+    font-size: 12px;
+    color: black;
+  }
+  .buttonAddButton{
+    padding: 0;
+    border: none;
+    background: none;
+    right: 165px;
+    top:19.5px;
+    font-size:25px;
+    color: #6B354D;
+    position: absolute;
+
+  }
+  .buttonDeleteButton{
+    padding: 0;
+    border: none;
+    background: none;
+    right: 140px;
+    top:19.5px;
+    font-size:25px;
+    color: #6B354D;
+    position: absolute;
+
+  }
+  .container {
+    position: absolute;
+    top: 22%;
+    left: 7%;
+  }
+  table {
+    width: 1200px;
+    border-collapse: collapse;
+    overflow: scroll;
+  }
+  th,td {
+  padding:20px;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid #ddd;
+  
+}
+th {
+  text-align: left;
+}
+thead th  {
+  background-color: #DBEAF4;
+}
+
+.EditButton{
+  padding: 0;
+  border: none;
+  background: none;
+  font-size:15px;
+  color: rgba(32, 73, 14, 0.808);
+  position: absolute;
+  right: 16%;
+
+}
+
+
+
+.DeleteButton{
+  padding: 0px;
+  border: none;
+  background: none;
+  font-size:15px;
+  color: #6B354D;
+  position: absolute;
+  right: 12%;
+
+}
+
+.containerFilter {
+  position: absolute;
+  right: 190px;
+  top: 3.5%;
+  transform: translate(-50%);
+}
+
+.search-box input[type=text] {
+  border: none;
+  background: none;
+  z-index: 1;
+  width: 25px;
+  height: 25px;
+  transition: all 0.25s ease-in 0.25s;
+  color: transparent;
+  font-size: 0.75rem;
+  line-height: 25px;
+}
+.search-box input[type=text]:hover {
+  cursor: pointer;
+}
+.search-box input[type=text]:hover:focus {
+  cursor: text;
+}
+.search-box input[type=text]:hover + span {
+  background: rgba(255, 255, 255, 0.2);
+}
+.search-box input[type=text]:focus {
+  width: 200px;
+  padding: 0 10px;
+  outline: none;
+  color: black;
+  background: none;
+  color: #6B354D;
+}
+.search-box input[type=text]:focus + span {
+  width: 200px;
+}
+.search-box input[type=text]:focus + span::before {
+  width: 2px;
+  opacity: 0;
+  transition: all 0.25s ease-in;
+}
+.search-box input[type=text] + span {
+  z-index: -1;
+  position: absolute;
+  border: 2px solid #6B354D;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  transition: all 0.25s ease-in 0.25s;
+  border-radius: 25px;
+  left: 0;
+}
+.search-box input[type=text] + span::before {
+  transition: all 0.25s ease-in 0.5s;
+  transform-origin: left top;
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 5px;
+  border-radius: 5px;
+  background: #6B354D;
+  transform: rotate(45deg) translate(26px, -2px);
+}
